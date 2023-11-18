@@ -26,5 +26,5 @@ io.on("connection", (socket) => {
 })
 
 server.listen(port, () => {
-    console.log('Gopii ki krda piyan? 💀')
+    console.log('Server running at port:', port)
 })
